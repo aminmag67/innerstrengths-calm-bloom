@@ -1,12 +1,13 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-import ServiceCard from "@/components/ServiceCard";
+import FlippableServiceCard from "@/components/FlippableServiceCard";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import heroImage from "@/assets/hero-flowers.jpg";
 import perinatalImage from "@/assets/perinatal-health.jpg";
 import adultImage from "@/assets/adult-therapy.jpg";
 import teenImage from "@/assets/teen-therapy.jpg";
+import collegeImage from "@/assets/college-therapy.jpg";
 
 const Index = () => {
   return (
@@ -63,26 +64,29 @@ const Index = () => {
             Our Services
           </h2>
           
-          <div className="grid md:grid-cols-3 gap-8">
-            <ServiceCard
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <FlippableServiceCard
               title="Perinatal Mental Health"
-              description="Support for those trying to conceive, pregnant, or navigating postpartum life. You're not alone - approximately 1 in 5 pregnant people develop a perinatal mood or anxiety disorder."
               image={perinatalImage}
-              link="/services/perinatal"
+              backText="Comprehensive support for fertility challenges, pregnancy, and postpartum mental health."
             />
             
-            <ServiceCard
-              title="Therapy for Adults"
-              description="Life changes can be exciting or overwhelming. Get support during vulnerable times to create lasting changes and find healing through a meaningful therapeutic relationship."
+            <FlippableServiceCard
+              title="Adults"
               image={adultImage}
-              link="/services/adult"
+              backText="Individual therapy for anxiety, depression, trauma, and life transitions."
             />
             
-            <ServiceCard
-              title="Therapy for Teens (16+)"
-              description="A safe environment for teens to explore their feelings, values, and goals. Support for dealing with self-esteem issues, anxiety, and navigating life's demands."
+            <FlippableServiceCard
+              title="Teens (16+)"
               image={teenImage}
-              link="/services/teen"
+              backText="Safe, supportive environment for teens dealing with anxiety, depression, and self-esteem."
+            />
+            
+            <FlippableServiceCard
+              title="College Student Transitions"
+              image={collegeImage}
+              backText="Supporting young adults through change, growth, and uncertainty during college years."
             />
           </div>
         </div>
