@@ -43,7 +43,7 @@ const Services = () => {
           
           <ServiceCard
             title="Therapy for College Student Transitions"
-            description="Navigate the unique challenges of college life with support for academic stress, identity exploration, relationships, and transitioning to independence."
+            description="Supporting young adults through change, growth, and uncertainty. College can be both exciting and overwhelming — filled with new responsibilities, shifting identities, academic pressures, and changing relationships. We offer therapy for college students navigating transitions such as moving away from home, adjusting to campus life, managing stress and anxiety, exploring identity, or planning for life after graduation. Our goal is to help students build emotional resilience, clarify values, and develop coping strategies to support both their mental health and personal growth during this pivotal time."
             image={collegeImage}
             link="/services/college"
           />
