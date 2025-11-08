@@ -28,21 +28,21 @@ const Services = () => {
           />
           
           <ServiceCard
-            title="Therapy for Adults"
+            title="Adults"
             description="Individual therapy for anxiety, depression, trauma, relationship issues, and life transitions. Build your inner strengths and develop healthier habits."
             image={adultImage}
             link="/services/adult"
           />
           
           <ServiceCard
-            title="Therapy for Teens (16+)"
+            title="Teens (16+)"
             description="Safe, supportive environment for teens dealing with anxiety, depression, self-esteem issues, and the challenges of adolescence."
             image={teenImage}
             link="/services/teen"
           />
           
           <ServiceCard
-            title="Therapy for College Student Transitions"
+            title="College Student Transitions"
             description="Supporting young adults through change, growth, and uncertainty. College can be both exciting and overwhelming — filled with new responsibilities, shifting identities, academic pressures, and changing relationships. We offer therapy for college students navigating transitions such as moving away from home, adjusting to campus life, managing stress and anxiety, exploring identity, or planning for life after graduation. Our goal is to help students build emotional resilience, clarify values, and develop coping strategies to support both their mental health and personal growth during this pivotal time."
             image={collegeImage}
             link="/services/college"
