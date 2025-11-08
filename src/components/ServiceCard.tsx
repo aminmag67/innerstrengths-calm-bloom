@@ -21,7 +21,7 @@ const ServiceCard = ({ title, description, image, link }: ServiceCardProps) => {
           />
         </div>
         <CardContent className="p-6">
-          <h3 className="text-xl font-display font-semibold text-foreground mb-2">
+          <h3 className="text-lg font-display font-semibold text-foreground mb-2">
             {title}
           </h3>
           <p className="text-muted-foreground mb-4 line-clamp-3">
