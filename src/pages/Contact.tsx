@@ -42,7 +42,7 @@ const Contact = () => {
                 <div>
                   <h3 className="font-display font-semibold text-foreground mb-2">Email</h3>
                   <p className="text-muted-foreground">
-                    Send us a message with your questions
+                    Send me a message with your questions
                   </p>
                 </div>
               </div>

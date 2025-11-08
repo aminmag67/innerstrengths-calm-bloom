@@ -40,7 +40,7 @@ const FAQs = () => {
           Frequently Asked Questions
         </h1>
         <p className="text-lg text-muted-foreground mb-12">
-          Find answers to common questions about therapy and our services
+          Find answers to common questions about therapy and my services
         </p>
         
         <Accordion type="single" collapsible className="space-y-4">

@@ -13,7 +13,7 @@ const Services = () => {
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <h1 className="text-4xl md:text-5xl font-display font-bold text-foreground mb-4 text-center animate-fade-in">
-          Our Services
+          My Services
         </h1>
         <p className="text-lg text-muted-foreground text-center mb-12 max-w-3xl mx-auto">
           Compassionate, individualized therapy services to support you through life's challenges
@@ -43,7 +43,7 @@ const Services = () => {
           
           <ServiceCard
             title="College Student Transitions"
-            description="Supporting young adults through change, growth, and uncertainty. College can be both exciting and overwhelming — filled with new responsibilities, shifting identities, academic pressures, and changing relationships. We offer therapy for college students navigating transitions such as moving away from home, adjusting to campus life, managing stress and anxiety, exploring identity, or planning for life after graduation. Our goal is to help students build emotional resilience, clarify values, and develop coping strategies to support both their mental health and personal growth during this pivotal time."
+            description="Supporting young adults through change, growth, and uncertainty. College can be both exciting and overwhelming — filled with new responsibilities, shifting identities, academic pressures, and changing relationships. I offer therapy for college students navigating transitions such as moving away from home, adjusting to campus life, managing stress and anxiety, exploring identity, or planning for life after graduation. My goal is to help students build emotional resilience, clarify values, and develop coping strategies to support both their mental health and personal growth during this pivotal time."
             image={collegeImage}
             link="/services/college"
           />
